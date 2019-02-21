@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js -tunnel",
+    "dev": "node server.js -dev"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "4.16.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
